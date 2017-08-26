@@ -2,7 +2,7 @@
   "name": "Slack Emoji Manager",
   "short_name": "Slack Emoji Manager",
   "description": "Easily upload and download your emojis in Slack",
-  "version": "0.2",
+  "version": "0.0.2",
   "permissions": [
     "activeTab",
     "http://*/",
