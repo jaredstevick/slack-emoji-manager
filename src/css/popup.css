@@ -1,0 +1,24 @@
+#app-container {
+  height: 500px;
+  width: 400px;
+}
+.popup {
+  font-family: sans-serif;
+  padding: 3px;
+  color: #555459;
+}
+
+.main-content {
+  font-size: larger;
+}
+.congrats {
+  margin: .5rem;
+}
+.image {
+  margin-top: 1rem;
+  text-align: center;
+}
+.link {
+  padding: .25rem;
+  background: #EEE;
+}
