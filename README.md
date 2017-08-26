@@ -7,7 +7,7 @@ Bulk upload and download for all of your Slack emojis!
 ### Installation
 
 This extension is installed through the Chrome Web Store: 
- - url goes here
+ - [Slack Emoji Manager](https://chrome.google.com/webstore/detail/slack-emoji-manager/alcljabecbbiacnmjojjnpcdafbjebgh)
 
 -----
 
