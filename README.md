@@ -2,16 +2,13 @@
 
 Bulk upload and download for all of your Slack emojis!
 
-upload pic here
-
-
-download pic here
 -----
 
 ### Installation
 
 This extension is installed through the Chrome Web Store: 
  - url goes here
+
 -----
 
 ### Usage
@@ -30,7 +27,7 @@ To use this extension, simply click the 😐 button and fill out your Slack grou
 
 To run locally
  - clone the repo
- - npm install
+ - `npm install`
  - `npm start`
  - `npm run build`
  - open your extensions `chrome://extensions/`
