@@ -116,7 +116,6 @@ export default class extends React.Component {
                 </p>
               </div>
             )}
-
           </div>
         </div>
       </div>
