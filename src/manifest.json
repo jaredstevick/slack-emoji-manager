@@ -1,6 +1,8 @@
 {
   "name": "Slack Emoji Manager",
+  "short_name": "Slack Emoji Manager",
   "description": "Easily upload and download your emojis in Slack",
+  "default_locale": "en",
   "version": "0.1",
   "permissions": [
     "activeTab",
