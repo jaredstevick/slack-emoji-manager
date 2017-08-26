@@ -2,6 +2,20 @@
   "name": "chrome-extension-webpack",
   "version": "0.0.1",
   "description": "Easily upload and download your emojis in Slack",
+  "keywords": ["slack", "emoji", "bulk", "upload", "download"],
+  "homepage": "https://github.com/jaredstevick/slack-emoji-manager",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredstevick/slack-emoji-manager.git"
+  },
+  "author": {
+    "name": "Jared Stevick ",
+    "email": "jstevick@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredstevick/slack-emoji-manager/issues"
+  },
   "scripts": {
     "build": "node utils/build.js",
     "start": "node utils/webserver.js",
