@@ -22,3 +22,30 @@
   padding: .25rem;
   background: #EEE;
 }
+.text-input {
+  width: 100%;
+  height: 2rem;
+  font-size: 1.25rem;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  text-align: center;
+}
+.submit {
+  width: 55%;
+  margin: 1rem auto;
+  text-align: center;
+  cursor: pointer;
+  background: #2ab27b;
+  border-radius: 5px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+}
+.submit:hover {
+  background: #54c195;
+}
+.disabled {
+  background: #69c9a2;
+  pointer-events: none;
+}

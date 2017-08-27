@@ -67,22 +67,28 @@ export default class extends React.Component {
                     {' '}To get started, enter the name of your Slack group below
                   </span>
                 </p>
-                <p>
-                  <input
-                    type="text"
-                    value={slackGroupName}
-                    placeholder="👉 Enter your Slack group name here 👈"
-                    onChange={e => this.setState({ slackGroupName: e.target.value })}
-                    style={{ width: '75%' }}
-                  />
-                </p>
-                <button
-                  type="button"
-                  disabled={slackGroupName.length < 1}
-                  onClick={() => this.setState({ submitted: true })}
-                >
-                  Submit
-                </button>
+                <input
+                  type="text"
+                  value={slackGroupName}
+                  className="text-input"
+                  placeholder="👉 Your Slack group name goes here 👈"
+                  onChange={e => this.setState({ slackGroupName: e.target.value })}
+                />
+                {slackGroupName.length < 1 ? (
+                  <div
+                    className="submit disabled"
+                    onClick={() => this.setState({ submitted: true })}
+                  >
+                    Submit
+                  </div>
+                ) : (
+                  <div
+                    className="submit"
+                    onClick={() => this.setState({ submitted: true })}
+                  >
+                    Submit
+                  </div>
+                )}
               </div>
             ) : (
               <div>
@@ -97,14 +103,15 @@ export default class extends React.Component {
                   </a>
                 </p>
                 <p>and wait for the page to load</p>
-                <button
+                <div
+                  className="submit"
                   onClick={() => this.setState({
                     slackGroupName: '',
                     submitted: false,
                   })}
                 >
-                  Choose another Slack group
-                </button>
+                  Choose Another Slack Group
+                </div>
                 <p>
                   <span>Please enjoy responsibily. </span>
                   <span
