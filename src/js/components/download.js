@@ -17,6 +17,7 @@ export default class extends React.Component {
   }
   componentDidMount() {
     this.generateEmojis();
+    window.alert('Hooray, Slack Emoji Manager loaded successfully. Now scroll down and look for the bulk upload and download sections.');
   }
   generateEmojis() {
     const rows = document.getElementsByClassName('emoji_row');

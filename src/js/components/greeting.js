@@ -12,6 +12,11 @@ export default class extends React.Component {
       submitted: false,
     };
   }
+  handleKeyPress(e) {
+    if (e.key === 'Enter') {
+      this.setState({ submitted: true });
+    }
+  }
   render() {
     const { slackGroupName, submitted } = this.state;
 
@@ -73,6 +78,7 @@ export default class extends React.Component {
                   className="text-input"
                   placeholder="👉 Your Slack group name goes here 👈"
                   onChange={e => this.setState({ slackGroupName: e.target.value })}
+                  onKeyDown={e => this.handleKeyPress(e)}
                 />
                 {slackGroupName.length < 1 ? (
                   <div
